@@ -3,8 +3,8 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
   font-family: 'William', serif;
-  margin-bottom: 24px;
-  margin-top: 0;
+  margin-bottom: 48px;
+  margin-top: 48;
   padding-top: 34px;
   font-weight: normal;
   color: red;
@@ -13,7 +13,7 @@ h2 {
   font-size: 24px;
   text-transform: uppercase;
   font-family: 'Inter', sans-serif;
-  margin-top: 0;
+  margin-top: 48;
   margin-bottom: 24px;
   color: blue;
 }
