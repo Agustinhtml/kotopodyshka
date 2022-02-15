@@ -1,3 +1,9 @@
+body {
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    background: url(images/river.jpg); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+   } 
 h1 {
   font-size: 64px;
   text-transform: uppercase;
