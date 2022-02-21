@@ -24,7 +24,7 @@ h2 {
     box-shadow: 0 0 0 4px #968089, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); /* смещение, размер и цвет тени рамки*/
       color: #fff;
       font-family: 'Lato', sans-serif;
-    font-style: oblique;
+    font-style: lucida console;
 }
 h3 {
   font-family: 'William', serif;
