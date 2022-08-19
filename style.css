@@ -1,9 +1,9 @@
 body {
     margin: 0; /* Убираем отступы */
     height: 100%; /* Высота страницы */
-    background: url(images/river.jpg); /* Параметры фона */
+    background-color: #D3D3D3; /* Параметры фона */
     background-size: cover; /* Фон занимает всю доступную площадь */
-   } 
+}
 h1 {
   font-size: 64px;
   text-transform: uppercase;
@@ -13,17 +13,17 @@ h1 {
   margin-top: 0;
   padding-top: 34px;
   font-weight: 600;
-  color: #2f4f4f;
+  color: #383838;
 }
 h2 {
-   padding: 40px 40px; /*отступ вложенного текста от рамки */
-    background: #2f4f4f; /* фон рамки */
+    padding: 40px 40px; /*отступ вложенного текста от рамки */
+    background: #708090; /* фон рамки */
     font-size: 36px; /* размер шрифта */
     border: 0px dashed #e3c3d4; /* размер, форма и цвет рамки */
-   /* border-radius: 10px;*/ /*  радиус скругления углов рамки */
-    box-shadow: 0 0 0 4px #968089, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); /* смещение, размер и цвет тени рамки*/
-      color: #fff;
-      font-family: 'Lato', sans-serif;
+    /* border-radius: 10px;*/ /*  радиус скругления углов рамки */
+    box-shadow: 0 0 0 2px #e2debe, 2px 4px 8px 8px #ffffff; /* смещение, размер и цвет тени рамки*/
+    color: #fff;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
 }
 h3 {
@@ -38,21 +38,26 @@ font-weight: normal;
   text-align: center;
 }
 h4 {
-   background: linear-gradient(135deg, #f4e3f0 50%, #e2debe 50%);
+    background: linear-gradient(135deg, #f4e3f0 50%, #e2debe 50%);
     color: #49152C;
     padding: 30px 50px;
     font-family: 'Lato', sans-serif;
-    font-size: 48px;
+    font-size: 36px;
+    text-transform: uppercase;
 }
 
 h5 {
-  background-color: #808080;
-    border-left: 30px solid #ff0000;
+    background-color: #D3D3D3;
+    /*border-left: 10px solid #FF0000;*/ /*С лева какая-то не понятная полоса*/
     color: #49152c;
     padding: 30px 50px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
-  text-align: center;
+    text-align: center;
+}
+
+h6 {
+    font-size: 36px;
 }
 
 img {
@@ -67,15 +72,16 @@ p {
   font-family: 'Inter', sans-serif;
   /*color: #000;*/
   padding: 30px 50px;
- 
+
 
     text-align: center;
 
 }
 div {
-  background-color: #d2b48c;
-  width: ;
-  height: ;
-  text-align: center;
-  margin: auto;
+    background-color: #808080;
+    /*width: ;
+  height: ;*/
+    text-align: center;
+    margin: auto;
+    background-size: cover;
 }
